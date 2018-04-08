@@ -4,10 +4,30 @@ html {
 
 h1 {
   color: #ffe100;
-  font-size: 80px;
-  font-family: fantasy;
-  font-style: oblique;
+  font-size: 120px;
+  font-family: fantasy, cursive;
   padding: 50px;
+}
+.shadow1{
+  color: #ffe100;
+ font-family: fantasy;
+ font-weight: ;
+ text-shadow:
+   -3px -3px 0 #222,
+   3px -3px 0 #222,
+   -3px 3px 0 #222,
+   3px 3px 0 #222,
+   4px 4px 0 #222,
+   5px 5px 0 #222,
+   6px 6px 0 #222,
+   7px 7px 0 #222;
+ line-height: 2em;
+ letter-spacing: 0.1em;
+ transform: scaleY(0.7);
+ -webkit-transform: scaleY(0.7);
+ -moz-transform: scaleY(0.7);
+ margin:0;
+ text-align: center;
 }
 
   .container {
@@ -24,13 +44,12 @@ h1 {
 .first{
   color: #ffe100;
   font-size: 35px;
-  font-style: oblique;
   font-family: fantasy;
   margin-top: 0px;
 }
 
 button{
-  background-color: black;
+  background-color: rgb(207, 73, 108);
   color: white;
   font-size: 40px;
   font-style: fantasy;
@@ -48,15 +67,36 @@ p{
 
 }
 .lable{
-  color: #ffffff;
-  font-size: 35px;
+  color: #000000;
+  font-size: 50px;
   font-style: oblique;
   font-family: fantasy;
 }
+.lable{
+  color: #ffe100;
+ font-family: fantasy;
+ font-weight: ;
+ text-shadow:
+   -3px -3px 0 #222,
+   3px -3px 0 #222,
+   -3px 3px 0 #222,
+   3px 3px 0 #222,
+   4px 4px 0 #222,
+   5px 5px 0 #222,
+   6px 6px 0 #222,
+   7px 7px 0 #222;
+ line-height: 2em;
+ letter-spacing: 0.1em;
+ transform: scaleY(0.7);
+ -webkit-transform: scaleY(0.7);
+ -moz-transform: scaleY(0.7);
+ margin:0;
+ text-align: center;
+}
 
 span {
-  color: #ffffff;
-  font-size: 35px;
+  color: red;
+  font-size: 30px;
   font-style: oblique;
   font-family: fantasy;
   opacity: 0;
