@@ -1,0 +1,78 @@
+html {
+  background-color: rgb(207, 73, 108);
+}
+
+h1 {
+  color: #ffe100;
+  font-size: 80px;
+  font-family: fantasy;
+  font-style: oblique;
+  padding: 50px;
+}
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+.item{
+  padding: 20px;
+  font-size: 25px;
+  align-self: flex-start;
+
+}
+.first{
+  color: #ffe100;
+  font-size: 35px;
+  font-style: oblique;
+  font-family: fantasy;
+  margin-top: 0px;
+}
+
+button{
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  font-style: fantasy;
+}
+  img {
+    padding: 55px;
+    border-radius: 50%;
+    float: inherit;
+}
+p{
+  color: #ffe100;
+  font-size: 50px;
+  font-family: fantasy;
+  font-style: oblique;
+
+}
+.lable{
+  color: #ffffff;
+  font-size: 35px;
+  font-style: oblique;
+  font-family: fantasy;
+}
+
+span {
+  color: #ffffff;
+  font-size: 35px;
+  font-style: oblique;
+  font-family: fantasy;
+  opacity: 0;
+  animation: blinking 1s linear infinite;
+}
+
+@keyframes blinking {
+  from,
+  49.9% {
+    opacity: 0;
+  }
+  50%,
+  to {
+    opacity: 1;
+  }
+}
+.top-margin{
+  margin-top: -20px;
+}

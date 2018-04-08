@@ -1,0 +1,41 @@
+.main-heading{
+  font-size: 50px;
+}
+.about{
+  font-size: 30px;
+
+}
+.hero{
+  height: 100px;
+  background: pink;
+  background-size: 50px;
+  text-align: center;
+  color: black;
+  padding: 90px 1 1 1;
+
+}
+.container {
+  /*flexbox*/
+   display: flex;
+   justify-content: center;
+   padding: 40px;
+   align-items: center;
+   justify-content: space-around;
+
+  /*styling*/
+   background: pink;
+   height: 100px;
+
+ }
+
+ .item{
+   color: white;
+ }
+ .center{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+
+ }
